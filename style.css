@@ -12,11 +12,11 @@
     --ff-secondary: 'Source Code Pro', monospace;
     --fw-reg: 300;
     --fw-bold: 900;
-    --clr-light: #fff;
-    --clr-dark: #303030;
-    --clr-accent: #16e0bd;
-    --fs-h1: 3rem;
-    --fs-h2: 2.25rem;
+    --clr-light: rgb(133, 177, 183);
+    --clr-dark: #10074e;
+    --clr-accent: #98a89c;
+    --fs-h1: 5rem;
+    --fs-h2: 2.5rem;
     --fs-h3: 1.25rem;
     --fs-body: 1rem;
     --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, .25), 0.125em 0.125em 0.25em rgba(0, 0, 0, .15);
@@ -24,10 +24,10 @@
 
 @media (min-width: 800px) {
      :root {
-        --fs-h1: 4.5rem;
-        --fs-h2: 3.75rem;
+        --fs-h1: 5rem;
+        --fs-h2: 4 rem;
         --fs-h3: 1.5rem;
-        --fs-body: 1.125rem;
+        --fs-body: 1.25rem;
     }
 }
 
@@ -270,7 +270,7 @@ header {
         width: min-content;
         margin: 0 auto;
         grid-column-gap: 1em;
-        grid-template-areas: "img title" "img subtitle";
+        grid-template-areas: "img title""img subtitle";
         grid-template-columns: min-content max-content;
     }
     .intro__img {
@@ -351,7 +351,7 @@ header {
     .about-me {
         display: grid;
         grid-template-columns: 1fr 200px;
-        grid-template-areas: "title img" "subtitle img" "text img";
+        grid-template-areas: "title img""subtitle img""text img";
         grid-column-gap: 2em;
     }
     .section__title--about {
