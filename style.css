@@ -12,7 +12,7 @@
     --ff-secondary: 'Source Code Pro', monospace;
     --fw-reg: 300;
     --fw-bold: 900;
-    --clr-light: rgb(217, 199, 199);
+    --clr-light: rgb(237, 195, 78);
     --clr-dark: #10074e;
     --clr-accent: #63bf7a;
     --fs-h1: 5rem;
@@ -110,6 +110,8 @@ h3 {
 
 .section__title {
     margin-bottom: .25em;
+    font-size: xx-large;
+    padding-bottom: 20px;
 }
 
 .section__title--intro {
