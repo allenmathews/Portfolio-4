@@ -428,7 +428,11 @@ header {
 }
 
 .footer__link {
-    padding-left: 800px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0 0;
+    padding: 0;
 }
 
 .footer__link {
