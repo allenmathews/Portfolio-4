@@ -150,9 +150,10 @@ header {
     padding: 1em;
 }
 
-.logo {
+
+/* .logo {
     max-width: 100px;
-}
+} */
 
 .nav {
     position: fixed;
@@ -279,15 +280,15 @@ header {
         grid-area: img;
         min-width: 250px;
         position: relative;
-        z-index: 2;
+        z-index: -2;
     }
     .section__subtitle--intro {
         align-self: start;
         grid-column: -1 / 1;
-        grid-row: 2;
+        grid-row: 3;
         text-align: right;
         position: relative;
-        left: -1.5em;
+        left: -0.99 em;
         width: calc(100% + 1.5em);
     }
 }
